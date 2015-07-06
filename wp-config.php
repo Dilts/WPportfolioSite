@@ -30,7 +30,7 @@ if (WP_ENV == 'dev') {
 } else {
     define('DB_NAME', 'mydb-prod');
     define('DB_USER', 'username');
-    define('DB_PASSWORD', 'pasdword');
+    define('DB_PASSWORD', 'password');
     define('DB_HOST', 'mysql.mysite.com');
 } 
 
